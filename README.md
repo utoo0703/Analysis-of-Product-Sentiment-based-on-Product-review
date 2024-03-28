@@ -36,3 +36,43 @@ The project consists of several Python scripts and functions:
 - **Dependencies (`requirements.txt`):**
   - Lists the required Python libraries and their versions for running the project (e.g., pandas, matplotlib, nltk).
 
+## Usage Examples
+
+### Case 1: Analyzing Sentiment for a Single Product
+
+- **Explanation:**
+  - User provides a product type for sentiment analysis.
+  - The script filters the dataset for the specified product type.
+  - Sentiment analysis is performed on each review to calculate positive, neutral, and negative sentiment.
+  - The sentiment distribution and a bar chart visualizing the distribution are displayed.
+  
+![image](https://github.com/utoo0703/Analysis-of-Product-Sentiment-based-on-Product-review/assets/78578594/9cf602b5-7c15-4c4f-af8f-0b7a481cce94)
+![image](https://github.com/utoo0703/Analysis-of-Product-Sentiment-based-on-Product-review/assets/78578594/e8b71de1-7bfb-4f0c-9f73-32221d475f2c)
+
+- Explanation of Case 1 and its functionality.
+- Sample output for Case 1.
+
+### Case 2: Comparing Sentiments Between Two Products
+
+- **Explanation:**
+  - User enters two product types for comparison.
+  - Sentiment analysis is performed for each product individually to calculate positive review percentages.
+  - The positive review percentages for both products are compared, and a bar chart visualizes the comparison.
+  
+![image](https://github.com/utoo0703/Analysis-of-Product-Sentiment-based-on-Product-review/assets/78578594/3bc0321e-4a57-4013-b43a-a4bd31136119)
+![image](https://github.com/utoo0703/Analysis-of-Product-Sentiment-based-on-Product-review/assets/78578594/415376c5-667d-43ff-8904-d4d55c212add)
+![image](https://github.com/utoo0703/Analysis-of-Product-Sentiment-based-on-Product-review/assets/78578594/1e27653d-fa77-4d83-aea8-870353c3bedb)
+![image](https://github.com/utoo0703/Analysis-of-Product-Sentiment-based-on-Product-review/assets/78578594/9014255d-c510-483e-9e0c-e34cd3384a75)
+
+- Explanation of Case 2 and its functionality.
+- Sample output for Case 2.
+
+### Case 3: Inputting Random User Reviews
+- **Explanation:**
+  - User provides a product type for sentiment analysis.
+  - The script filters the dataset for the specified product type.
+  - Sentiment analysis is performed on each review to calculate positive, neutral, and negative sentiment.
+  - The sentiment distribution and a bar chart visualizing the distribution are displayed.
+
+- Explanation of Case 3 and its functionality.
+- Sample output for Case 3.
